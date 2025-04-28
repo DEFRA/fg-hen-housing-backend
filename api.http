@@ -1,0 +1,10 @@
+@base=http://localhost:3001
+
+# Calculate grant amount
+@calcGrantAmount
+POST {{base}}/calc-grant-amount
+Content-Type: application/json
+
+{
+  "totalEstimatedCost": 1000
+}
