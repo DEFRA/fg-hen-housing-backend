@@ -5,7 +5,7 @@ export default {
     },
     autoStart: false,
     instance: {
-      dbName: 'cdp-node-backend-template'
+      dbName: 'fg-hen-housing-backend'
     }
   },
   mongoURLEnvName: 'MONGO_URI',

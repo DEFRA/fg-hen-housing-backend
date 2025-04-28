@@ -65,7 +65,7 @@ services:
   #   networks:
   #     - cdp-tenant
 
-  cdp-node-backend-template:
+  fg-hen-housing-backend:
     build:
       context: .
       target: development
